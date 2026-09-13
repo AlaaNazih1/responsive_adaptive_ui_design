@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_adaptive_ui_design/views/widgets/home_view_body.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -10,7 +11,10 @@ class HomeView extends StatelessWidget {
       ,
       backgroundColor: Colors.black,
       ),
-      
+      backgroundColor: Color(0xffDBDBDB),
+      body: Center(
+        child: HomeViewBody(),
+      ),
     );
   }
 }
